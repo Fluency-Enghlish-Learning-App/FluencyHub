@@ -1,5 +1,3 @@
-import React from "react";
-
 const Tutorial = () => {
   return (
     <section className="py-24 px-8 bg-background-secondary">

@@ -1,5 +1,4 @@
 import { ComponentType, LazyExoticComponent, lazy } from "react";
-import MainLayout from "@/shared/layouts/MainLayout";
 import LandingLayout from "@/shared/layouts/LandingLayout";
 import LandingLayoutV2 from "@/features/landing-v2/layouts/LandingLayoutV2";
 

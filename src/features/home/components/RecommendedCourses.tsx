@@ -1,6 +1,3 @@
-import React from "react";
-import { BookOpen, Star, Users } from "lucide-react";
-import { useNavigate } from "react-router-dom";
 import { coursesData } from "../data/mockData";
 
 interface RecommendedCoursesProps {
@@ -11,10 +8,8 @@ interface RecommendedCoursesProps {
 
 const RecommendedCourses: React.FC<RecommendedCoursesProps> = ({
   limit,
-  onCourseClick,
   showTitle = true,
 }) => {
-  const navigate = useNavigate();
   const displayCourses = limit ? coursesData.slice(0, limit) : coursesData;
 
   const handleCourseClick = (course: any) => {

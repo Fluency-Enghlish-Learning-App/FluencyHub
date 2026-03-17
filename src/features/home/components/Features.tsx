@@ -1,4 +1,3 @@
-import React from "react";
 import { Shield, Users, Award, Zap } from "lucide-react";
 
 const Features = () => {
