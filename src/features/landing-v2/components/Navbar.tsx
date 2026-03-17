@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { THEMES } from "../constants";
+import logoImg from "@/assets/logo.jpg";
 import { AlignEndVertical } from "lucide-react";
 
 interface NavbarProps {
@@ -73,7 +74,7 @@ export default function Navbar({ theme, isDark, setDark }: NavbarProps) {
           }}
         >
           <img
-            src="/src/assets/logo.jpg"
+            src={logoImg}
             alt="Fluency Logo"
             style={{
               width: 36,

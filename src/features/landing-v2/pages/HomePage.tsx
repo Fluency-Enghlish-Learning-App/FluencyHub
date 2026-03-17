@@ -11,6 +11,7 @@ import { CourseService } from "../services/courseService";
 import { FadeIn } from "../components/FadeIn";
 import CourseCard from "../components/CourseCard";
 import { useTheme } from "@/core/providers/theme-provider";
+import googlePlayBadge from "@/assets/google-play.png";
 
 export default function HomePage() {
   const [courses, setCourses] = useState<Course[]>([]);
@@ -248,7 +249,7 @@ export default function HomePage() {
                   }}
                 >
                   <img
-                    src="/src/assets/google-play.png"
+                    src={googlePlayBadge}
                     alt=""
                     style={{ width: 28, height: 28, objectFit: "contain" }}
                   />
@@ -1140,7 +1141,7 @@ export default function HomePage() {
                   }}
                 >
                   <img
-                    src="/src/assets/google-play.png"
+                    src={googlePlayBadge}
                     alt=""
                     style={{ width: 24, height: 24, objectFit: "contain" }}
                   />

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logoImg from "@/assets/logo.jpg";
 
 export default function Footer() {
   const productLinks = [
@@ -46,7 +47,7 @@ export default function Footer() {
               }}
             >
               <img
-                src="/src/assets/logo.jpg"
+                src={logoImg}
                 alt="Fluency Logo"
                 style={{
                   width: 36,
